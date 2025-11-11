@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [localAtlas, setLocalAtlas] = useState("Newark");
   const [modal, setModal] = useState(false);
+  
   return (
     <>
       <Head>
