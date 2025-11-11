@@ -8,7 +8,9 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 const title = "About Us";
+
 export default function Pricing() {
+  
   return (
     <>
       <Head>
@@ -20,6 +22,7 @@ export default function Pricing() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      
       <main className="bg-black">
         <Navbar />
         <div className="h-[400px] w-full bg-black relative flex justify-center items-end">
