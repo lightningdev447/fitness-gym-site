@@ -43,7 +43,6 @@ export default function Services() {
             </span>
           </div>
         </div>
-
         <div className="bg-white flex flex-col gap-4 justify-center items-center">
           <div className="flex flex-wrap justify-center gap-2 py-10 max-w-[1800px]">
             <SlideColorBox idNum={1} title={"Personalized Training"} sub={"Work with experienced trainers to achieve your goals"} icon={"dumbbell"} img="/images/trainer.webp"/>
@@ -52,8 +51,6 @@ export default function Services() {
             <SlideColorBox idNum={4} title={"Group Classes"} sub={"Make some friends and get a killer workout in"} icon={"people-group"} img="/images/group.jpeg"/>
             <SlideColorBox idNum={5} title={"Childcare"} sub={"Don't let life slow you down from your fitness goals"} icon={"child"} img="/images/daycare.jpeg"/>
             <SlideColorBox idNum={6} title={"Spa"} sub={"Post-workout relaxation"} icon={"spa"} img="/images/spa.jpeg"/>
-
-
           </div>
         </div>
       </main>
